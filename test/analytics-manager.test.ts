@@ -36,12 +36,12 @@ describe('ArchiveAnalytics', () => {
   });
 
   describe('Image url setting', () => {
-    it('defaults to https://analytics.archive.org/0.gif', () => {
+    it('defaults to https://athena.archive.org/0.gif', () => {
       const archiveAnalytics = new AnalyticsManager();
       archiveAnalytics.sendPing();
       expect(sendBeaconSpy.calledOnce);
       const callArgs = sendBeaconSpy.getCall(0).args[0];
-      expect(callArgs).to.contain('https://analytics.archive.org/0.gif?');
+      expect(callArgs).to.contain('https://athena.archive.org/0.gif?');
     });
 
     it('can customize the image url', () => {
