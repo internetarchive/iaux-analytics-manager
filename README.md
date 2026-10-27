@@ -2,6 +2,8 @@
  [![codecov](https://codecov.io/gh/internetarchive/iaux-analytics-manager/branch/main/graph/badge.svg)](https://codecov.io/gh/internetarchive/iaux-analytics-manager)
 # Internet Archive Analytics Manager
 
+> Moved to [@internetarchive/elements](https://github.com/internetarchive/elements) (`src/services/analytics-manager`). New work goes there.
+
 This is the manager for sending archive.org analytics.
 
 ## Local Demo with `web-dev-server`
